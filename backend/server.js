@@ -6,10 +6,10 @@ const cors = require('cors');
 
  
 
-// Import routes
+
 const authRoutes = require('./routes/authRoutes');
 const ideaRoutes = require('./routes/ideaRoutes');
-// const commentRoutes = require('./routes/commentRoutes');
+
 
 
 const app = express();
